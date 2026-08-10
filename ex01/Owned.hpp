@@ -7,8 +7,8 @@ struct Enemy {
 class Owned {
 public:
   Owned();
-  Owned(const Owned &other);
-  Owned &operator=(const Owned &other);
+  Owned(const Owned &other) = delete;
+  Owned &operator=(const Owned &other) = delete;
   ~Owned();
 
   Enemy *operator->() const;

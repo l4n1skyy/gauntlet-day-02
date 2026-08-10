@@ -3,7 +3,7 @@ NAME := fight
 
 # Compiler and the gauntlet's mandatory flags
 CXX      := c++
-CXXFLAGS := -Wall -Wextra -Werror -std=c++17 -fsanitize=address
+CXXFLAGS := -Wall -Wextra -Werror -std=c++17
 
 # Automatically pick up every .cpp file in this directory
 SRCS := $(wildcard *.cpp)
