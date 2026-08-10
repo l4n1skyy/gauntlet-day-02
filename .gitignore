@@ -1,0 +1,6 @@
+# Build artifacts
+obj_files/
+*.o
+
+# General leftovers
+*.out
