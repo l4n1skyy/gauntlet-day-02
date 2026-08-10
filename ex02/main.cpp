@@ -6,6 +6,7 @@ struct Enemy {
 };
 
 int fight(bool flee) {
+  // fight is the sole owner of enemy and its never shared
   auto t = std::make_unique<Enemy>();
   Enemy *e = t.get();
   if (flee)
